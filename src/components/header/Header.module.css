@@ -1,0 +1,20 @@
+.navBar{
+  border-bottom: 1px solid var(--heading-color);
+}
+.menubar {
+  align-items: center;
+  justify-content: flex-end;
+}
+.menuItems {
+  align-items: flex-end;
+  justify-content: center;
+}
+.logo_img {
+  width: 5rem;
+  height: 5rem;
+}
+@media (min-width: 992px) {
+  .menuItems {
+    gap: 1.5rem;
+  }
+}

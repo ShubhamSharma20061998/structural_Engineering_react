@@ -1,0 +1,70 @@
+.COMMERCIAL {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://acropolis-wp-content-uploads.s3.us-west-1.amazonaws.com/commercial-construction-hero-image.webp");
+}
+.RESIDENTIAL {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://www.hccs.edu/media/houston-community-college/district/images/08172020_CE_Residential-Construction.jpg");
+}
+.INSTITUTIONAL {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://assets.thehansindia.com/hansindia-bucket/5925_Buz.jpg");
+}
+.INDUSTRIAL {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("https://www.virtueindustries.co.in/wp-content/uploads/2019/07/Blog.jpg");
+}
+.HOSPITALITY {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("http://ritcheyent.com/wp-content/uploads/2016/11/DCS4343-1024x612.jpg");
+}
+.COMMERCIAL,
+.RESIDENTIAL,
+.INSTITUTIONAL,
+.INDUSTRIAL,
+.HOSPITALITY {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: var(--cards-heading-font) !important;
+  letter-spacing: 0.25rem;
+}
+.COMMERCIAL a,
+.RESIDENTIAL a,
+.INSTITUTIONAL a,
+.INDUSTRIAL a,
+.HOSPITALITY a {
+  color: #fff;
+  position: relative;
+  bottom: -85%;
+}
+.card {
+  height: 20rem !important;
+  border: none !important;
+}
+.mainContainer section {
+  padding-bottom: var(--section-spacing-bottom);
+  padding-top: var(--section-spacing-top);
+}
+.mainContainer p {
+  line-height: var(--line-spacing);
+  margin-bottom: var(--division-spacing-content);
+}
+.header {
+  border-bottom: 1px solid darkgreen;
+}
+.mainContainer h1 {
+  color: var(--heading-color);
+  margin-bottom: var(--division-spacing-header);
+}
+.ourServices_section {
+  background-color: #e2e2e2;
+}
+@media screen and (max-width: 992px) {
+  .card_container_row {
+    gap: 1rem;
+  }
+}
+h5 {
+  font-size: 1.5rem !important;
+}

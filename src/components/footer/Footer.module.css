@@ -1,0 +1,16 @@
+.footer_container svg {
+  color: #fff;
+  height: 2rem;
+  width: 2rem;
+}
+.footer_container {
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 3rem;
+}
+.footer {
+  background-color: #000;
+  color: #fff;
+}

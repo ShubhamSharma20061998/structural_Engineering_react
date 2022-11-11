@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+:root {
+  --line-spacing: 1.8rem;
+  --section-spacing-bottom: 5rem;
+  --section-spacing-top: 2.5rem;
+  --division-spacing-header: 2.5rem;
+  --division-spacing-content: 1.5rem;
+  --heading-color: #134d3e;
+  --button-width: 8rem;
+  --button-height: 2.5rem;
+  --ReadMore-button-color: #113cfc;
+  --content-font: "Poppins", sans-serif;
+  --heading-font: "Poppins", sans-serif;
+  --cards-heading-font: "Oswald", sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--content-font);
+  font-weight: 300;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  font-weight: 200;
+}
+main {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+.readMore_button {
+  border: 1px solid var(--ReadMore-button-color);
+  border-radius: 0.5rem;
+  width: var(--button-width);
+  height: var(--button-height);
+  background-color: var(--ReadMore-button-color);
+  color: #fff;
+}
