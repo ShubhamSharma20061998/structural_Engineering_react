@@ -24,3 +24,11 @@
 .cards_container .cards {
   margin-bottom: 1.5rem;
 }
+.cards img{
+  width: 100%;
+  height: 15rem;
+}
+.cards:hover{
+  transition: all 0.5s;
+  transform:scale(0.98);
+}

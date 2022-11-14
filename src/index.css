@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 :root {
   --line-spacing: 1.8rem;
-  --section-spacing-bottom: 5rem;
+  --section-spacing-bottom: 2.5rem;
   --section-spacing-top: 2.5rem;
   --division-spacing-header: 2.5rem;
   --division-spacing-content: 1.5rem;
@@ -44,4 +44,7 @@ a {
   height: var(--button-height);
   background-color: var(--ReadMore-button-color);
   color: #fff;
+}
+.container{
+  width: 80%;
 }
