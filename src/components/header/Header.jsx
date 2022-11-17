@@ -1,17 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 
 const Header = () => {
   return (
     <nav className={`navbar navbar-expand-lg ${styles.navBar}`}>
       <div className="container">
-        <a className="navbar-brand" href="#">
+        <Link className="navbar-brand" to="/">
           <img
             className={styles.logo_img}
             src="https://api.freelogodesign.org/assets/thumb/logo/15046535_400.png?t=637885594730000000"
             alt="logo"
           />
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -28,18 +29,18 @@ const Header = () => {
           id="navbarNavAltMarkup"
         >
           <div className={`navbar-nav ${styles.menuItems}`}>
-            <a className="nav-link" aria-current="page" href="#">
+            <Link className="nav-link" aria-current="page" to="/">
               HOME
-            </a>
-            <a className="nav-link" href="#">
+            </Link>
+            <Link className="nav-link" to="/services">
               SERVICES
-            </a>
-            <a className="nav-link" href="#">
+            </Link>
+            <Link className="nav-link" to="/aboutus">
               ABOUT US
-            </a>
-            <a className="nav-link" href="#">
+            </Link>
+            <Link className="nav-link" to="/news">
               NEWS
-            </a>
+            </Link>
             <a className="nav-link" href="#">
               CONTACT US
             </a>

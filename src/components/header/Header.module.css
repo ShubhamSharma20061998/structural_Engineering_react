@@ -1,5 +1,6 @@
 .navBar{
   border-bottom: 1px solid var(--heading-color);
+  background-color: #fff;
 }
 .menubar {
   align-items: center;

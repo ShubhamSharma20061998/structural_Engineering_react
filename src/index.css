@@ -10,7 +10,8 @@
   --heading-color: #134d3e;
   --button-width: 8rem;
   --button-height: 2.5rem;
-  --ReadMore-button-color: #113cfc;
+  --ReadMore-button-color: #1363DF;
+  --ReadMore-button-hover-color:#051367;
   --content-font: "Poppins", sans-serif;
   --heading-font: "Poppins", sans-serif;
   --cards-heading-font: "Oswald", sans-serif;
@@ -45,6 +46,13 @@ a {
   background-color: var(--ReadMore-button-color);
   color: #fff;
 }
+.readMore_button:hover{
+  background-color: var(--ReadMore-button-hover-color);
+  border: transparent;
+}
 .container{
-  width: 80%;
+  width: 70%;
+}
+p{
+  line-height: 1.8rem;
 }

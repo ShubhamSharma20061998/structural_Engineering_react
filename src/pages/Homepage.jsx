@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./homepage.module.css";
 import video from "../assets/homepage_video.mp4";
+import { Link, useNavigate } from 'react-router-dom';
 const Homepage = () => {
+  let navigate =useNavigate();
   return (
     <>
       {/* PAGE STARTS */}
@@ -35,22 +37,22 @@ const Homepage = () => {
                 laboriosam laudantium eum a! Maiores sed id temporibus sapiente
                 rerum laborum odio maxime harum voluptatum! Facere.
               </p>
-              <a href="#">
+              <Link to="/aboutus">
                 <button className="readMore_button">Read more...</button>
-              </a>
+              </Link>
             </div>
           </div>
         </section>
         <section className={`container-fluid ${styles.ourServices_section}`}>
           <h1>OUR SERVICES</h1>
-          <div className="card_container container">
+          <div className="card_container">
             <div className={`row ${styles.card_container_row}`}>
               <div className="col-lg">
-                <div className={`card ${styles.card}`}>
+                <div className={`card ${styles.card}`}  onClick={()=> navigate('/commercial')}>
                   <div className={`card-body ${styles.COMMERCIAL}`}>
-                    <a href="#">
+                    <Link href="/aboutus">
                       <h5>COMMERCIAL</h5>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>

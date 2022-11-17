@@ -7,7 +7,7 @@
     width: 100%;
     height: 50vh;
   }
-  .banner_heading h1 {
+  .banner_heading {
     display: flex;
     height: 50vh;
     justify-content: center;
@@ -38,4 +38,34 @@ section{
     background-position: center;  
     background-repeat: no-repeat;
     background-size: cover;
+    border: none;
+}
+.bodyContent{
+    line-height: 1.8rem;
+}
+.user img{
+    width: 3rem;
+    height: 3rem;
+}
+.user{
+    border: none;
+    background-color: transparent;
+}
+.user_pic{
+    background-color: #757575;
+    width: 4rem;
+    height: 4rem;
+}
+.teams h1{
+    margin-bottom: var(--division-spacing-header);
+    color: var(--heading-color);
+}
+.teams{
+    background-color: #e1e1e1;
+}
+.ourCulture h1{
+    margin-bottom: 2.5rem;
+}
+.ourCulture p{
+    line-height: 1.8rem;
 }
