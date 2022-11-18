@@ -1,0 +1,10 @@
+.eventPage div {
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  background-color: #e1e1e1;
+  color: #757575;
+}

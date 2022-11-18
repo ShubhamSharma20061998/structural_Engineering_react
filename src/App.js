@@ -6,18 +6,20 @@ import AboutUs from "./pages/AboutUs";
 import Homepage from "./pages/Homepage";
 import News from "./pages/News";
 import Services from "./pages/Services";
-import Commercial from './pages/Commercial';
+import Commercial from "./pages/Commercial";
+import NoEvent from "./pages/noEvent/NoEvent";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route path="/" element={<Homepage />}/>
-        <Route path="/services" element={<Services />}/>
-        <Route path="/aboutus" element={<AboutUs/>}/>
-        <Route path="/news" element={<News/>}/>
-        <Route path="/commercial" element={<Commercial/>}/>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/news" element={<News />} />
+        <Route path="/commercial" element={<Commercial />} />
+        <Route path="/events" element={<NoEvent />} />
       </Routes>
       <Footer />
     </BrowserRouter>
