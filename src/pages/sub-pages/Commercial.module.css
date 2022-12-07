@@ -1,0 +1,47 @@
+.banner {
+  position: relative;
+}
+.banner video {
+  width: 100%;
+  height: 60vh;
+  object-fit: cover;
+}
+.featured_projects h1,
+.detailed_documents h1 {
+  margin-bottom: 2.5rem;
+  color: var(--heading-color);
+}
+.gallery img {
+  height: 30rem;
+}
+.info_tile {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.info_tile h3 {
+  margin-bottom: 1rem;
+}
+.info_tile div {
+  background-color: #838383ad;
+  min-width: 20%;
+  padding: 1rem 0;
+  border: 1px solid transparent;
+  border-radius: 0.8rem;
+  color: #ffffff;
+}
+.documents_container img {
+  width: 100%;
+  height: 15rem;
+}
+.detailed_documents {
+  background-color: #e2e2e2;
+}
+.documents_container > div {
+  margin-bottom: 1.5rem;
+}

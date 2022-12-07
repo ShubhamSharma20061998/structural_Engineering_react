@@ -1,7 +1,9 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 import styles from "./Services.module.css";
 
 const Services = () => {
+  let navigate = useNavigate();
   return (
     <main>
       <div className={`${styles.banner} container-fluid`}>
@@ -14,7 +16,10 @@ const Services = () => {
         <div className="row">
           <h1>OUR SERVICES</h1>
           <div className="col-lg">
-            <div className={`card  ${styles.cards}`}>
+            <div
+              className={`card  ${styles.cards}`}
+              onClick={() => navigate("/commercial")}
+            >
               <img
                 src="https://media.biltrax.com/wp-content/uploads/2021/09/building-construction-sunset.jpg"
                 className="card-img-top"
@@ -26,14 +31,17 @@ const Services = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <Link to="/commercial" className="btn btn-primary">
                   Know more...
-                </a>
+                </Link>
               </div>
             </div>
           </div>
           <div className="col-lg">
-            <div className={`card  ${styles.cards}`}>
+            <div
+              className={`card  ${styles.cards}`}
+              onClick={() => navigate("/hospitality")}
+            >
               <img
                 src="https://www.marcumllp.com/wp-content/uploads/constructionsurvey-2022-banner-2-960x600.jpg"
                 className="card-img-top"
@@ -45,14 +53,17 @@ const Services = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <Link to="/hospitality" className="btn btn-primary">
                   Know more...
-                </a>
+                </Link>
               </div>
             </div>
           </div>
           <div className="col-lg">
-            <div className={`card  ${styles.cards}`}>
+            <div
+              className={`card  ${styles.cards}`}
+              onClick={() => navigate("/industrial")}
+            >
               <img
                 src="https://www.moneyweb.co.za/wp-content/uploads/2014/10/AdobeStock_1060176-555x370.jpeg"
                 className="card-img-top"
@@ -64,16 +75,19 @@ const Services = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <Link to="/industrial" className="btn btn-primary">
                   Know more...
-                </a>
+                </Link>
               </div>
             </div>
           </div>
         </div>
         <div className="row">
           <div className="col-lg">
-            <div className={`card  ${styles.cards}`}>
+            <div
+              className={`card  ${styles.cards}`}
+              onClick={() => navigate("/residential")}
+            >
               <img
                 src="https://cdn.technologyadvice.com/wp-content/uploads/2017/08/Fotolia_98303431_Subscription_Monthly_M-699x408.jpg"
                 className="card-img-top"
@@ -85,14 +99,17 @@ const Services = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <Link to="/residential" className="btn btn-primary">
                   Know more...
-                </a>
+                </Link>
               </div>
             </div>
           </div>
           <div className="col-lg">
-            <div className={`card  ${styles.cards}`}>
+            <div
+              className={`card  ${styles.cards}`}
+              onClick={() => navigate("/institutional")}
+            >
               <img
                 src="https://ace-australia.com/wp-content/uploads/2021/12/Construction-3-1000x700.jpg"
                 className="card-img-top"
@@ -104,9 +121,9 @@ const Services = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
+                <Link to="/institutional" className="btn btn-primary">
                   Know more...
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -123,9 +140,6 @@ const Services = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
-                  Know more...
-                </a>
               </div>
             </div>
           </div>

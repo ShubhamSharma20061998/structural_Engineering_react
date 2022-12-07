@@ -6,8 +6,12 @@ import AboutUs from "./pages/AboutUs";
 import Homepage from "./pages/Homepage";
 import News from "./pages/News";
 import Services from "./pages/Services";
-import Commercial from "./pages/Commercial";
 import NoEvent from "./pages/noEvent/NoEvent";
+import Commercial from "./pages/sub-pages/Commercial";
+import Hospitality from "./pages/sub-pages/Hospitality";
+import Residential from "./pages/sub-pages/Residential";
+import Institutional from "./pages/sub-pages/Institutional";
+import Industrial from "./pages/sub-pages/Industrial";
 
 const App = () => {
   return (
@@ -18,8 +22,12 @@ const App = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/news" element={<News />} />
-        <Route path="/commercial" element={<Commercial />} />
         <Route path="/events" element={<NoEvent />} />
+        <Route path="/commercial" element={<Commercial />} />
+        <Route path="/hospitality" element={<Hospitality />} />
+        <Route path="/residential" element={<Residential />} />
+        <Route path="/institutional" element={<Institutional />} />
+        <Route path="/industrial" element={<Industrial />} />
       </Routes>
       <Footer />
     </BrowserRouter>

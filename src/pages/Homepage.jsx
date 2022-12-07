@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./homepage.module.css";
 import video from "../assets/homepage_video.mp4";
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from "react-router-dom";
 const Homepage = () => {
-  let navigate =useNavigate();
+  let navigate = useNavigate();
   return (
     <>
       {/* PAGE STARTS */}
@@ -48,7 +48,10 @@ const Homepage = () => {
           <div className="card_container">
             <div className={`row ${styles.card_container_row}`}>
               <div className="col-lg">
-                <div className={`card ${styles.card}`}  onClick={()=> navigate('/commercial')}>
+                <div
+                  className={`card ${styles.card}`}
+                  onClick={() => navigate("/commercial")}
+                >
                   <div className={`card-body ${styles.COMMERCIAL}`}>
                     <Link href="/aboutus">
                       <h5>COMMERCIAL</h5>
@@ -58,37 +61,49 @@ const Homepage = () => {
               </div>
               <div className="col-lg">
                 <div className={`card ${styles.card}`}>
-                  <div className={`card-body ${styles.RESIDENTIAL}`}>
-                    <a href="#">
+                  <div
+                    className={`card-body ${styles.RESIDENTIAL}`}
+                    onClick={() => navigate("/residential")}
+                  >
+                    <Link to="/residential">
                       <h5>RESIDENTIAL</h5>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg">
                 <div className={`card ${styles.card}`}>
-                  <div className={`card-body ${styles.INSTITUTIONAL}`}>
-                    <a href="#">
+                  <div
+                    className={`card-body ${styles.INSTITUTIONAL}`}
+                    onClick={() => navigate("/institutional")}
+                  >
+                    <Link to="/institutional">
                       <h5>INSTITUTIONAL</h5>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg">
                 <div className={`card ${styles.card}`}>
-                  <div className={`card-body ${styles.INDUSTRIAL}`}>
-                    <a href="#">
+                  <div
+                    className={`card-body ${styles.INDUSTRIAL}`}
+                    onClick={() => navigate("/industrial")}
+                  >
+                    <Link to="/industrial">
                       <h5>INDUSTRIAL</h5>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg">
                 <div className={`card ${styles.card}`}>
-                  <div className={`card-body ${styles.HOSPITALITY}`}>
-                    <a href="#">
+                  <div
+                    className={`card-body ${styles.HOSPITALITY}`}
+                    onClick={() => navigate("/hospitality")}
+                  >
+                    <Link to="/hospitality">
                       <h5>HOSPITALITY</h5>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
