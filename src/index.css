@@ -5,13 +5,13 @@
   --line-spacing: 1.8rem;
   --section-spacing-bottom: 2.5rem;
   --section-spacing-top: 2.5rem;
-  --division-spacing-header: 2.5rem;
+  --division-spacing-header: 2rem;
   --division-spacing-content: 1.5rem;
   --heading-color: #134d3e;
   --button-width: 8rem;
   --button-height: 2.5rem;
-  --ReadMore-button-color: #1363DF;
-  --ReadMore-button-hover-color:#051367;
+  --ReadMore-button-color: #1363df;
+  --ReadMore-button-hover-color: #051367;
   --content-font: "Poppins", sans-serif;
   --heading-font: "Poppins", sans-serif;
   --cards-heading-font: "Oswald", sans-serif;
@@ -46,13 +46,13 @@ a {
   background-color: var(--ReadMore-button-color);
   color: #fff;
 }
-.readMore_button:hover{
+.readMore_button:hover {
   background-color: var(--ReadMore-button-hover-color);
   border: transparent;
 }
-.container{
+.container {
   width: 70%;
 }
-p{
+p {
   line-height: 1.8rem;
 }

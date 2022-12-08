@@ -78,7 +78,7 @@ const Commercial = () => {
         <div className={`${styles.documents_container} container`}>
           <div className="row">
             <div className="col">
-              <div className="card">
+              <div className={`card ${styles.cards}`}>
                 <img
                   src="https://www.ishn.com/ext/resources/hi-vis-supply-construction-site.jpg?1617734295"
                   className="card-img-top"
@@ -97,7 +97,7 @@ const Commercial = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div className={`card ${styles.cards}`}>
                 <img
                   src="https://assets-news.housing.com/news/wp-content/uploads/2021/03/08191855/All-about-the-Bihar-State-Building-Construction-Corporation-Limited-BSBCCL-FB-1200x700-compressed.jpg"
                   className="card-img-top"
@@ -116,7 +116,7 @@ const Commercial = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div className={`card ${styles.cards}`}>
                 <img
                   src="https://imageio.forbes.com/specials-images/imageserve/628f972e3c9676c3267f39fc/0x0.jpg?format=jpg&crop=2917,1641,x0,y137,safe&width=1200"
                   className="card-img-top"
@@ -137,7 +137,7 @@ const Commercial = () => {
           </div>
           <div className="row">
             <div className="col">
-              <div className="card">
+              <div className={`card ${styles.cards}`}>
                 <img
                   src="https://cdn.britannica.com/00/185900-050-B3B2AA26/Construction-workers-concrete.jpg"
                   className="card-img-top"
@@ -156,7 +156,7 @@ const Commercial = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div className={`card ${styles.cards}`}>
                 <img
                   src="https://www.westcon.org/pictures/img.jpg?v20200407181011"
                   className="card-img-top"
@@ -175,7 +175,7 @@ const Commercial = () => {
               </div>
             </div>
             <div className="col">
-              <div className="card">
+              <div className={`card ${styles.cards}`}>
                 <img
                   src="https://images.pexels.com/photos/2590716/pexels-photo-2590716.jpeg?auto=compress&cs=tinysrgb&w=600"
                   className="card-img-top"

@@ -45,3 +45,8 @@
 .documents_container > div {
   margin-bottom: 1.5rem;
 }
+.cards:hover {
+  transition: all 0.5s;
+  transform: scale(0.98);
+  cursor: pointer;
+}

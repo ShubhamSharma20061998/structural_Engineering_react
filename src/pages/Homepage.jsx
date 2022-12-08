@@ -9,9 +9,7 @@ const Homepage = () => {
       {/* PAGE STARTS */}
       <main className={styles.mainContainer}>
         {/* video section starts */}
-        <video className="video_section" width="100%" controls autoPlay loop>
-          <source src={video} type="video/mp4" />
-        </video>
+        <video src={video} autoPlay loop muted />
         <section className="aboutUs_section container">
           <div className="row">
             <div className="col">
