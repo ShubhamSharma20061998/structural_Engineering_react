@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./homepage.module.css";
-import video from "../assets/homepage_video.mp4";
+import video from "../assets/homepage.mp4";
 import { Link, useNavigate } from "react-router-dom";
 const Homepage = () => {
   let navigate = useNavigate();
