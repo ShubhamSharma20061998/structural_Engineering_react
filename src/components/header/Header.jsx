@@ -5,7 +5,7 @@ import styles from "./Header.module.css";
 const Header = () => {
   return (
     <nav className={`navbar navbar-expand-lg ${styles.navBar}`}>
-      <div className="container">
+      <div className="container-fluid">
         <Link className="navbar-brand" to="/">
           <img
             className={styles.logo_img}
@@ -41,9 +41,9 @@ const Header = () => {
             <Link className="nav-link" to="/news">
               NEWS
             </Link>
-            <a className="nav-link" href="#">
+            <Link className="nav-link" to="/contactus">
               CONTACT US
-            </a>
+            </Link>
           </div>
         </div>
       </div>

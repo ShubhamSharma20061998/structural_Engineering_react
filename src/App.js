@@ -12,6 +12,7 @@ import Hospitality from "./pages/sub-pages/Hospitality";
 import Residential from "./pages/sub-pages/Residential";
 import Institutional from "./pages/sub-pages/Institutional";
 import Industrial from "./pages/sub-pages/Industrial";
+import Contact from "./pages/Contact";
 
 const App = () => {
   return (
@@ -28,6 +29,7 @@ const App = () => {
         <Route path="/residential" element={<Residential />} />
         <Route path="/institutional" element={<Institutional />} />
         <Route path="/industrial" element={<Industrial />} />
+        <Route path="/contactus" element={<Contact />} />
       </Routes>
       <Footer />
     </BrowserRouter>

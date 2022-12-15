@@ -1,13 +1,8 @@
 .banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("https://www.agcs.allianz.com/content/onemarketing/agcs/agcs/en_GB/news-and-insights/news/10-trends-construction-risks-press.thumb.1280.1280.png?ck=1644917421");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
   height: 50vh;
 }
-.banner_heading h1 {
+.banner_heading {
   display: flex;
   height: 50vh;
   justify-content: center;
@@ -32,4 +27,13 @@
   transition: all 0.5s;
   transform: scale(0.98);
   cursor: pointer;
+}
+.background_patch {
+  background-color: #838383ad;
+  padding: 1rem 1.5rem;
+  width: fit-content;
+  min-width: 15rem;
+  height: fit-content;
+  border: none;
+  border-radius: 1rem;
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Parallax } from "react-parallax";
 import { Link, useNavigate } from "react-router-dom";
 import styles from "./Services.module.css";
 
@@ -6,12 +7,26 @@ const Services = () => {
   let navigate = useNavigate();
   return (
     <main>
-      <div className={`${styles.banner} container-fluid`}>
-        <div className="text_background_patch"></div>
-        <div className={`${styles.banner_heading}`}>
-          <h1>SERVICES</h1>
+      <Parallax
+        bgImage="https://images.pexels.com/photos/2209529/pexels-photo-2209529.jpeg"
+        strength={200}
+        className={styles.parallax}
+        renderLayer={() => (
+          <div
+            style={{
+              position: "absolute",
+            }}
+          />
+        )}
+      >
+        <div className={`${styles.banner} container-fluid`}>
+          <div className={`${styles.banner_heading}`}>
+            <div className={styles.background_patch}>
+              <h1>SERVICES</h1>
+            </div>
+          </div>
         </div>
-      </div>
+      </Parallax>
       <section className={`${styles.cards_container} container`}>
         <div className="row">
           <h1>OUR SERVICES</h1>

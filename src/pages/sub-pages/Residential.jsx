@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Residential.module.css";
-import video from "../../assets/commercial.mp4";
+import video from "../../assets/residential.mp4";
+import Project_menu from "../../components/Project_menu";
 
 const Residential = () => {
   return (
@@ -20,6 +21,7 @@ const Residential = () => {
       </div>
       {/* featured projects section starts */}
       <section className={`${styles.featured_projects} container`}>
+        <Project_menu />
         <h1>OUR FEATURED RESIDENTIAL PROJECTS</h1>
         <div className={`${styles.gallery}`}>
           <div

@@ -1,71 +1,78 @@
 .banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-      url("https://www.worldfinance.com/wp-content/uploads/2021/11/C011_rt.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 50vh;
-  }
-  .banner_heading {
-    display: flex;
-    height: 50vh;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-  }
-section{
-    padding-top: var(--section-spacing-top);
-    padding-bottom: var(--section-spacing-bottom);
+  width: 100%;
+  height: 50vh;
 }
-.license_button{
-    margin-top: var(--division-spacing-content);
+.banner_heading {
+  display: flex;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
 }
-.cards{
-    height: fit-content;
+section {
+  padding-top: var(--section-spacing-top);
+  padding-bottom: var(--section-spacing-bottom);
 }
-.card1{
-    background-image: url('https://cdn.ihsmarkit.com/www/images/0522/construction2.jpg');
+.license_button {
+  margin-top: var(--division-spacing-content);
 }
-.card2{
-    background-image: url('https://imageio.forbes.com/specials-images/imageserve/628f972e3c9676c3267f39fc/0x0.jpg?format=jpg&crop=2917,1641,x0,y137,safe&width=1200');
+.cards {
+  height: fit-content;
 }
-.card3{
-    background-image: url('https://m.economictimes.com/thumb/msid-94853912,width-1200,height-900,resizemode-4,imgsize-606225/under-construction-istock.jpg');
+.card1 {
+  background-image: url("https://cdn.ihsmarkit.com/www/images/0522/construction2.jpg");
 }
-.card1,.card2,.card3{
-    height: 30rem;
-    background-position: center;  
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: none;
+.card2 {
+  background-image: url("https://imageio.forbes.com/specials-images/imageserve/628f972e3c9676c3267f39fc/0x0.jpg?format=jpg&crop=2917,1641,x0,y137,safe&width=1200");
 }
-.bodyContent{
-    line-height: 1.8rem;
+.card3 {
+  background-image: url("https://m.economictimes.com/thumb/msid-94853912,width-1200,height-900,resizemode-4,imgsize-606225/under-construction-istock.jpg");
 }
-.user img{
-    width: 3rem;
-    height: 3rem;
+.card1,
+.card2,
+.card3 {
+  height: 30rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: none;
 }
-.user{
-    border: none;
-    background-color: transparent;
+.bodyContent {
+  line-height: 1.8rem;
 }
-.user_pic{
-    background-color: #757575;
-    width: 4rem;
-    height: 4rem;
+.user img {
+  width: 3rem;
+  height: 3rem;
 }
-.teams h1{
-    margin-bottom: var(--division-spacing-header);
-    color: var(--heading-color);
+.user {
+  border: none;
+  background-color: transparent;
 }
-.teams{
-    background-color: #e1e1e1;
+.user_pic {
+  background-color: #757575;
+  width: 4rem;
+  height: 4rem;
 }
-.ourCulture h1{
-    margin-bottom: 2.5rem;
+.teams h1 {
+  margin-bottom: var(--division-spacing-header);
+  color: var(--heading-color);
 }
-.ourCulture p{
-    line-height: 1.8rem;
+.teams {
+  background-color: #e1e1e1;
+}
+.ourCulture h1 {
+  margin-bottom: 2.5rem;
+}
+.ourCulture p {
+  line-height: 1.8rem;
+}
+
+.background_patch {
+  background-color: #838383ad;
+  padding: 1rem 1.5rem;
+  width: fit-content;
+  min-width: 15rem;
+  height: fit-content;
+  border: none;
+  border-radius: 1rem;
 }

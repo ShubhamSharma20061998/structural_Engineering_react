@@ -1,6 +1,9 @@
-.navBar{
+.navBar {
   border-bottom: 1px solid var(--heading-color);
   background-color: #fff;
+}
+.navBar > div {
+  padding: 0 2rem;
 }
 .menubar {
   align-items: center;

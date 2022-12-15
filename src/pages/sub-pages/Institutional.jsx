@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Institutional.module.css";
-import video from "../../assets/commercial.mp4";
+import video from "../../assets/institutional.mp4";
+import Project_menu from "../../components/Project_menu";
 
 const Institutional = () => {
   return (
@@ -20,6 +21,7 @@ const Institutional = () => {
       </div>
       {/* featured projects section starts */}
       <section className={`${styles.featured_projects} container`}>
+        <Project_menu />
         <h1>OUR FEATURED INSTITUTIONAL PROJECTS</h1>
         <div className={`${styles.gallery}`}>
           <div

@@ -1,0 +1,6 @@
+.project_menu {
+  margin-bottom: 2rem;
+}
+.project_menu a {
+  color: var(--heading-color);
+}
