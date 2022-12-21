@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
 import { GoLogoGithub } from "react-icons/go";
-import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className={styles.footer}>
@@ -14,6 +13,7 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/in/shubham-sharma-76861a1a0"
               target="_blank"
+              rel="noreferrer"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -29,6 +29,7 @@ const Footer = () => {
             <a
               href="https://github.com/ShubhamSharma20061998/structural_Engineering_react"
               target="_blank"
+              rel="noreferrer"
             >
               <GoLogoGithub className={`${styles.gitLogo}`} />
             </a>
