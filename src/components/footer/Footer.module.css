@@ -17,3 +17,12 @@
   justify-content: center;
   height: 7rem;
 }
+.gitLogo {
+  cursor: pointer;
+  width: 3rem !important;
+}
+@media screen and (min-width: 767px) {
+  .gitLogo {
+    margin-left: 1rem;
+  }
+}
