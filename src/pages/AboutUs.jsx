@@ -29,17 +29,18 @@ const AboutUs = () => {
 
       <section className={`${styles.bodyContent} container`}>
         <div>
-          Barcus Structural Engineering (BSE, Inc.) is a consulting engineering
-          firm located in the Central Valley of California. From here we service
-          a diverse list of clients, including Architects, Developers,
-          design-build Contractors, Industrial Owners and Municipalities,
-          providing personalized structural engineering services throughout the
-          state of California as well as nationally and internationally. We
-          pride ourselves in tailoring services to our specific client’s need
-          providing strict attention to various points of project emphasis,
-          which may typically include project schedule, constructability,
-          introduction of various architecturally exposed structural elements
-          and value engineering.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, suscipit
+          vel. Repellat, cum, molestiae sint dolorum possimus maiores assumenda
+          dolores laboriosam obcaecati quo consectetur suscipit non accusamus
+          doloribus explicabo architecto! Quas error, corrupti, officia
+          dignissimos amet maxime ut excepturi asperiores atque ipsa aut unde
+          sed assumenda porro aspernatur possimus reiciendis quisquam illo quia
+          exercitationem. Temporibus eveniet at, harum necessitatibus laudantium
+          reprehenderit sed assumenda maiores provident deleniti facilis
+          doloremque nemo dolore pariatur a vitae possimus sit repudiandae
+          voluptatem suscipit voluptatibus? Fugiat et, ut architecto rerum
+          ullam, vero eius iste ad dolor, consequatur necessitatibus distinctio?
+          Odio perspiciatis dolorum quo aperiam voluptas minima?
         </div>
         <div className={`${styles.license_button}`}>
           <button className="btn btn-primary readMore_button">license</button>

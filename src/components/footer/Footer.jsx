@@ -10,7 +10,7 @@ const Footer = () => {
             <span>©2022 The Company In Reference.</span>
           </div>
           <div className="col" style={{ textAlign: "center" }}>
-            <a href="#">
+            <a href="https://www.linkedin.com/in/shubham-sharma-76861a1a0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"

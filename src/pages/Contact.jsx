@@ -1,9 +1,31 @@
-import React from "react";
+import React, { useRef } from "react";
 import styles from "./Contact.module.css";
 import { MdEmail, MdLocalPhone, MdLocationPin } from "react-icons/md";
 import { Parallax } from "react-parallax";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = e => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_agxyjzx",
+        "template_89rvlma",
+        form.current,
+        "-fNDennpqIflq2DcR"
+      )
+      .then(
+        result => {
+          console.log(result.text);
+        },
+        error => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <main>
       <Parallax
@@ -29,7 +51,7 @@ const Contact = () => {
 
       <section className={`${styles.contact_section} container`}>
         <div className="row">
-          <div className="contact_form col">
+          <form ref={form} className="contact_form col" onSubmit={sendEmail}>
             <div className="mb-3">
               <label htmlFor="name" className="form-label">
                 Full Name
@@ -39,6 +61,19 @@ const Contact = () => {
                 className="form-control"
                 id="name"
                 placeholder="Your Name"
+                name="user_name"
+              />
+            </div>
+            <div className="mb-3">
+              <label htmlFor="subject" className="form-label">
+                Subject
+              </label>
+              <input
+                type="text"
+                className="form-control"
+                id="subject"
+                placeholder="Subject"
+                name="subject"
               />
             </div>
             <div className="mb-3">
@@ -50,15 +85,23 @@ const Contact = () => {
                 className="form-control"
                 id="mailId"
                 placeholder="name@example.com"
+                name="user_email"
               />
             </div>
             <div className="mb-3">
               <label htmlFor="text_field" className="form-label">
                 Message
               </label>
-              <textarea className="form-control" id="text_field" rows={3} />
+              <textarea
+                className="form-control"
+                id="text_field"
+                rows="10"
+                cols="30"
+                name="message"
+              />
             </div>
-          </div>
+            <button type="submit" className="btn btn-primary">Submit</button>
+          </form>
           <div className={`${styles.contact_details} col`}>
             <h5>Contact</h5>
             <div>

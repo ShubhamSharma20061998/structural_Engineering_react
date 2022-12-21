@@ -13,11 +13,13 @@ import Residential from "./pages/sub-pages/Residential";
 import Institutional from "./pages/sub-pages/Institutional";
 import Industrial from "./pages/sub-pages/Industrial";
 import Contact from "./pages/Contact";
+import ScrollTop from "./ScrollTop";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Header />
+      <ScrollTop />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/services" element={<Services />} />
