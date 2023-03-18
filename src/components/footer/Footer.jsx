@@ -30,6 +30,7 @@ const Footer = () => {
               href="https://github.com/ShubhamSharma20061998/structural_Engineering_react"
               target="_blank"
               rel="noreferrer"
+              style={{ marginLeft: "0.6rem" }}
             >
               <GoLogoGithub className={`${styles.gitLogo}`} />
             </a>

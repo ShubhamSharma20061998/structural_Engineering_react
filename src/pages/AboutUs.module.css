@@ -76,3 +76,11 @@ section {
   border: none;
   border-radius: 1rem;
 }
+@media screen and (max-width: 768px) {
+  .About_us_img > div {
+    gap: 1rem;
+  }
+  .About_us_img {
+    width: 100% !important;
+  }
+}

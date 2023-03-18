@@ -27,7 +27,7 @@ const AboutUs = () => {
         </div>
       </Parallax>
 
-      <section className={`${styles.bodyContent} container`}>
+      <section className={`${styles.bodyContent} container-md`}>
         <div>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, suscipit
           vel. Repellat, cum, molestiae sint dolorum possimus maiores assumenda
@@ -48,19 +48,19 @@ const AboutUs = () => {
       </section>
       <section className={`${styles.About_us_img} container`}>
         <div className="row">
-          <div className="col">
+          <div className="col-md col-3-sm">
             <div className={`card ${styles.card1}`}></div>
           </div>
-          <div className="col">
+          <div className="col-md col-3-sm">
             <div className={`card ${styles.card2}`}></div>
           </div>
-          <div className="col">
+          <div className="col-md col-3-sm">
             <div className={`card ${styles.card3}`}></div>
           </div>
         </div>
       </section>
       <section className={`${styles.ourCulture}`}>
-        <div className="container">
+        <div className="container-md">
           <h1>OUR CULTURE</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse

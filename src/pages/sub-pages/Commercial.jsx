@@ -20,7 +20,7 @@ const Commercial = () => {
         </div>
       </div>
       {/* featured projects section starts */}
-      <section className={`${styles.featured_projects} container`}>
+      <section className={`${styles.featured_projects} container-md`}>
         <Project_menu />
         <h1>OUR FEATURED COMMERCIAL PROJECTS</h1>
         <div className={`${styles.gallery}`}>

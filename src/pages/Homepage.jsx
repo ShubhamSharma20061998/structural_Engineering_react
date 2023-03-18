@@ -10,7 +10,7 @@ const Homepage = () => {
       <main className={styles.mainContainer}>
         {/* video section starts */}
         <video src={video} autoPlay loop muted />
-        <section className="aboutUs_section container">
+        <section className="aboutUs_section container-fluid container-md">
           <div className="row">
             <div className="col">
               <h1>ABOUT US</h1>
