@@ -80,7 +80,7 @@ const Services = () => {
               onClick={() => navigate("/industrial")}
             >
               <img
-                src="https://www.moneyweb.co.za/wp-content/uploads/2014/10/AdobeStock_1060176-555x370.jpeg"
+                src="https://images.pexels.com/photos/7245333/pexels-photo-7245333.jpeg"
                 className="card-img-top"
                 alt="..."
               />
