@@ -6,9 +6,11 @@ const Project_menu = () => {
     <div className={styles.project_menu}>
       <ul className="nav justify-content-center">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="/commercial">
+          {/* <a className="nav-link active" aria-current="page" href="/commercial">
             COMMERCIAL
-          </a>
+          </a> */}
+          <Link to='/commercial'>COMMERCIAL</Link>
+          
         </li>
         <li className="nav-item">
           <a className="nav-link" href="/hospitality">
