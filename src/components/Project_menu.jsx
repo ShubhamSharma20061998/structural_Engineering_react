@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./Project_menu.module.css";
 
 const Project_menu = () => {
@@ -6,31 +7,29 @@ const Project_menu = () => {
     <div className={styles.project_menu}>
       <ul className="nav justify-content-center">
         <li className="nav-item">
-          {/* <a className="nav-link active" aria-current="page" href="/commercial">
+          <Link to="/commercial" className={styles.nav_Link}>
             COMMERCIAL
-          </a> */}
-          <Link to='/commercial'>COMMERCIAL</Link>
-          
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/hospitality">
+          <Link to="/hospitality" className={styles.nav_Link}>
             HOSPITALITY
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/industrial">
+          <Link to="/industrial" className={styles.nav_Link}>
             INDUSTRIAL
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="/residential">
+          <Link to="/residential" className={styles.nav_Link}>
             RESIDENTIAL
-          </a>
+          </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="institutional">
+          <Link to="/institutional" className={styles.nav_Link}>
             INSTITUTIONAL
-          </a>
+          </Link>
         </li>
       </ul>
     </div>

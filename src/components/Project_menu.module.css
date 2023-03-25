@@ -1,6 +1,7 @@
 .project_menu {
   margin-bottom: 2rem;
 }
-.project_menu a {
+.nav_Link{
+  margin-left: 1rem;
   color: var(--heading-color);
 }
