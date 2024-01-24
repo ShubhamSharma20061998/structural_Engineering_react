@@ -16,13 +16,13 @@ This project serves as a showcase for my frontend development skills, emphasizin
 
 ## Tech Stack
 
-- **React:** ![React Logo](https://w7.pngwing.com/pngs/403/269/png-transparent-react-react-native-logos-brands-in-colors-icon-thumbnail.png) Efficiently manages components and renders dynamic content.
+- **React:**  Efficiently manages components and renders dynamic content.
 
-- **HTML:** ![HTML5 Logo](https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png) Provides the structure and semantics for the web pages.
+- **HTML:**  Provides the structure and semantics for the web pages.
 
-- **CSS:** ![CSS3 Logo](https://w7.pngwing.com/pngs/509/571/png-transparent-cascading-style-sheets-logo-css3-html-web-development-world-wide-web-blue-angle-web-design.png) Styles the website for a visually appealing and consistent look.
+- **CSS:** Styles the website for a visually appealing and consistent look.
 
-- **Bootstrap:** ![Bootstrap Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png) Enhances responsiveness and styling with a mobile-first approach.
+- **Bootstrap:** Enhances responsiveness and styling with a mobile-first approach.
 
 ## Demo
 
