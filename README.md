@@ -1,7 +1,5 @@
 # Architectural Firm Showcase Website
 
-![Project Logo](url_to_logo)
-
 ## Overview
 
 This project serves as a showcase for my frontend development skills, emphasizing proficiency in React, HTML, CSS, and Bootstrap. It's a static, fully responsive website designed for an architectural firm to highlight their portfolio, services, and company information.
@@ -18,13 +16,13 @@ This project serves as a showcase for my frontend development skills, emphasizin
 
 ## Tech Stack
 
-- **React:** ![React Logo](https://img.icons8.com/plasticine/452/react.svg) Efficiently manages components and renders dynamic content.
+- **React:** ![React Logo](https://w7.pngwing.com/pngs/403/269/png-transparent-react-react-native-logos-brands-in-colors-icon-thumbnail.png) Efficiently manages components and renders dynamic content.
 
-- **HTML:** ![HTML5 Logo](https://img.icons8.com/color/452/html-5.svg) Provides the structure and semantics for the web pages.
+- **HTML:** ![HTML5 Logo](https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_960_720.png) Provides the structure and semantics for the web pages.
 
-- **CSS:** ![CSS3 Logo](https://img.icons8.com/color/452/css3.svg) Styles the website for a visually appealing and consistent look.
+- **CSS:** ![CSS3 Logo](https://w7.pngwing.com/pngs/509/571/png-transparent-cascading-style-sheets-logo-css3-html-web-development-world-wide-web-blue-angle-web-design.png) Styles the website for a visually appealing and consistent look.
 
-- **Bootstrap:** ![Bootstrap Logo](https://img.icons8.com/color/452/bootstrap.svg) Enhances responsiveness and styling with a mobile-first approach.
+- **Bootstrap:** ![Bootstrap Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png) Enhances responsiveness and styling with a mobile-first approach.
 
 ## Demo
 
