@@ -1,3 +1,35 @@
+# Architectural Firm Showcase Website
+
+![Project Logo](url_to_logo)
+
+## Overview
+
+This project serves as a showcase for my frontend development skills, emphasizing proficiency in React, HTML, CSS, and Bootstrap. It's a static, fully responsive website designed for an architectural firm to highlight their portfolio, services, and company information.
+
+## Features
+
+- **Responsive Design:** Utilizes Bootstrap, CSS media queries, and responsive web design principles for optimal viewing across devices.
+
+- **Sleek UI/UX:** Implements intuitive navigation and a modern user interface to enhance the user experience.
+
+- **Portfolio Section:** Showcases the architectural firm's projects with a clean and visually appealing layout.
+
+- **Service Details:** Describes the firm's services with engaging content and aesthetically pleasing design.
+
+## Tech Stack
+
+- **React:** ![React Logo](https://img.icons8.com/plasticine/452/react.svg) Efficiently manages components and renders dynamic content.
+
+- **HTML:** ![HTML5 Logo](https://img.icons8.com/color/452/html-5.svg) Provides the structure and semantics for the web pages.
+
+- **CSS:** ![CSS3 Logo](https://img.icons8.com/color/452/css3.svg) Styles the website for a visually appealing and consistent look.
+
+- **Bootstrap:** ![Bootstrap Logo](https://img.icons8.com/color/452/bootstrap.svg) Enhances responsiveness and styling with a mobile-first approach.
+
+## Demo
+
+[Link to Live Demo](https://structural-firm-site.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
